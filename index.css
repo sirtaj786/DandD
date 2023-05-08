@@ -1,0 +1,23 @@
+#container{
+    display: flex;
+    justify-content: flex-start;
+}
+#container #box{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50%; */
+    margin: 5px;
+
+}
+#container div:nth-child(1){
+    background-color: red;
+}
+#container div:nth-child(2){
+    background-color: teal;
+}
+#container div:nth-child(3){
+    background-color: Pink;
+}
+#container div:nth-child(4){
+    background-color: violet;
+}
